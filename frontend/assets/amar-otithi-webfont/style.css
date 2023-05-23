@@ -1,0 +1,26 @@
+@font-face {
+  font-family: AmarOtithiWebFont;
+  src: url("1.woff2") format("woff2"),url("1.woff") format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family:AmarOtithiWebFont;src:url("2.woff2") format("woff2"),url("2.woff") format("woff");font-weight:600;font-display:swap;
+}
+
+@font-face {
+  font-family:AmarOtithiWebFont;unicode-range:U+F0000-FFFFD;src:url("3.woff2") format("woff2"),url("3.woff") format("woff");font-weight:800;font-display:swap;
+}
+
+@font-face {
+  font-family:AmarOtithiWebFont;src:url("4.woff2") format("woff2"),url("4.woff") format("woff");font-weight:normal;font-style:normal;font-display:swap;
+}
+
+@font-face {
+  font-family:AmarOtithiWebFont;src:url("5.woff2") format("woff2"),url("5.woff") format("woff");font-weight:600;font-style:normal;font-display:swap;
+}
+
+@font-face {
+  font-family:AmarOtithiWebFont;src:url("6.woff2") format("woff2"),url("6.woff") format("woff");font-weight:800;font-style:normal;font-display:swap;
+}

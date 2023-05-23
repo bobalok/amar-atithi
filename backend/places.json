@@ -1,0 +1,315 @@
+[
+  {
+    "model": "places.type",
+    "pk": 1,
+    "fields": {
+      "name": "Apartment",
+      "description": "Apartments are typically located in multi-unit residential buildings or complexes where other people live.",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-14T17:16:58.061Z",
+      "updated_at": "2019-08-14T17:16:58.061Z"
+    }
+  },
+  {
+    "model": "places.type",
+    "pk": 2,
+    "fields": {
+      "name": "House",
+      "description": "Houses are residential buildings that are often stand-alone structures. Some houses",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-14T17:16:58.061Z",
+      "updated_at": "2019-08-14T17:16:58.061Z"
+    }
+  },
+  {
+    "model": "places.type",
+    "pk": 3,
+    "fields": {
+      "name": "Bungalow",
+      "description": "Bungalows are houses with architectural features like a wide front porch and a sloping roof. They\u2019re usually single-level homes.",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-14T17:16:58.061Z",
+      "updated_at": "2019-08-14T17:16:58.061Z"
+    }
+  },
+  {
+    "model": "places.type",
+    "pk": 4,
+    "fields": {
+      "name": "Guesthouse",
+      "description": "A guesthouse is a detached building that shares a property with another stand-alone structure like a house. Sometimes these are called carriage houses or coach houses.",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-14T17:16:58.061Z",
+      "updated_at": "2019-08-14T17:16:58.061Z"
+    }
+  },
+  {
+    "model": "places.type",
+    "pk": 5,
+    "fields": {
+      "name": "Hotel",
+      "description": "Hotels are professional hospitality businesses that offer accommodations like private rooms and rental units for guests.",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-14T17:16:58.061Z",
+      "updated_at": "2019-08-14T17:16:58.061Z"
+    }
+  },
+  {
+    "model": "places.type",
+    "pk": 6,
+    "fields": {
+      "name": "Resort",
+      "description": "Resorts are professional hospitality businesses with guest accommodations ranging from hotel rooms to private rentals. They may offer more amenities and services than other hotels.",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-14T17:16:58.061Z",
+      "updated_at": "2019-08-14T17:16:58.061Z"
+    }
+  },
+  {
+    "model": "places.type",
+    "pk": 7,
+    "fields": {
+      "name": "Condominium",
+      "description": "Condominiums or condos are units typically located in multi-unit residential buildings or complexes where other people live. Condos are owned by individuals whereas apartments are usually owned by a property management group.",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-14T17:16:58.061Z",
+      "updated_at": "2019-08-14T17:16:58.061Z"
+    }
+  },
+  {
+    "model": "places.type",
+    "pk": 8,
+    "fields": {
+      "name": "Loft",
+      "description": "A loft is a space\u2014usually an apartment or condo\u2014with an open layout. Most or all walls in a loft do not extend fully to the ceiling.",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-14T17:16:58.061Z",
+      "updated_at": "2019-08-14T17:16:58.061Z"
+    }
+  },
+  {
+    "model": "places.type",
+    "pk": 9,
+    "fields": {
+      "name": "Cabin",
+      "description": "Cabins are houses built with natural materials like logs and wood. They\u2019re often located in natural settings like forests and mountains.",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-14T17:16:58.061Z",
+      "updated_at": "2019-08-14T17:16:58.061Z"
+    }
+  },
+  {
+    "model": "places.type",
+    "pk": 10,
+    "fields": {
+      "name": "Villa",
+      "description": "Villas are luxurious homes that tend to have outdoor-indoor spaces and large yards",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-14T17:16:58.061Z",
+      "updated_at": "2019-08-14T17:16:58.061Z"
+    }
+  },
+  {
+    "model": "places.space",
+    "pk": 1,
+    "fields": {
+      "name": "Entire place",
+      "description": "Guests have the whole place to themselves. This usually includes a bedroom",
+      "created_at": "2019-08-14T20:33:39.446Z",
+      "updated_at": "2019-08-14T20:33:39.446Z"
+    }
+  },
+  {
+    "model": "places.space",
+    "pk": 2,
+    "fields": {
+      "name": "Private room",
+      "description": "Guests have their own private room for sleeping. Other areas could be shared.",
+      "created_at": "2019-08-14T20:33:39.446Z",
+      "updated_at": "2019-08-14T20:33:39.446Z"
+    }
+  },
+  {
+    "model": "places.space",
+    "pk": 3,
+    "fields": {
+      "name": "Shared room",
+      "description": "Guests sleep in a bedroom or a common area that could be shared with others.",
+      "created_at": "2019-08-14T20:33:39.446Z",
+      "updated_at": "2019-08-14T20:33:39.446Z"
+    }
+  },
+  {
+    "model": "places.city",
+    "pk": 1,
+    "fields": {
+      "name": "Dhaka",
+      "code": "dhaka",
+      "created_at": "2019-08-14T23:06:40.041Z",
+      "updated_at": "2019-08-14T23:06:40.041Z"
+    }
+  },
+  {
+    "model": "places.state",
+    "pk": 2,
+    "fields": {
+      "name": "Dhanmondi",
+      "code": "dhanmondi",
+      "city": 1,
+      "created_at": "2019-08-14T23:07:13.842Z",
+      "updated_at": "2019-08-14T23:07:13.842Z"
+    }
+  },
+  {
+    "model": "places.state",
+    "pk": 3,
+    "fields": {
+      "name": "Gulshan",
+      "code": "gulshan",
+      "city": 1,
+      "created_at": "2019-08-14T23:07:13.842Z",
+      "updated_at": "2019-08-14T23:07:13.842Z"
+    }
+  },
+  {
+    "model": "places.state",
+    "pk": 4,
+    "fields": {
+      "name": "Banani",
+      "code": "banani",
+      "city": 1,
+      "created_at": "2019-08-14T23:07:13.842Z",
+      "updated_at": "2019-08-14T23:07:13.842Z"
+    }
+  },
+  {
+    "model": "places.amenity",
+    "pk": 1,
+    "fields": {
+      "name": "Wifi",
+      "description": "Continuous access in the listing",
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-16T00:33:16.908Z",
+      "updated_at": "2019-08-16T00:33:16.908Z"
+    }
+  },
+  {
+    "model": "places.amenity",
+    "pk": 2,
+    "fields": {
+      "name": "Washer",
+      "description": "In the building",
+      "order": 1,
+      "deleted": false,
+      "created_at": "2019-08-16T00:33:16.908Z",
+      "updated_at": "2019-08-16T00:33:16.908Z"
+    }
+  },
+  {
+    "model": "places.amenity",
+    "pk": 3,
+    "fields": {
+      "name": "Dryer",
+      "description": "In the building",
+      "order": 2,
+      "deleted": false,
+      "created_at": "2019-08-16T00:33:16.908Z",
+      "updated_at": "2019-08-16T00:33:16.908Z"
+    }
+  },
+  {
+    "model": "places.amenity",
+    "pk": 4,
+    "fields": {
+      "name": "Laptop friendly workspace",
+      "description": "A table or desk with space for a laptop and a chair that\u2019s comfortable to work in",
+      "order": 3,
+      "deleted": false,
+      "created_at": "2019-08-16T00:33:16.908Z",
+      "updated_at": "2019-08-16T00:33:16.908Z"
+    }
+  },
+  {
+    "model": "places.amenity",
+    "pk": 5,
+    "fields": {
+      "name": "Television",
+      "description": null,
+      "order": 4,
+      "deleted": false,
+      "created_at": "2019-08-16T00:33:16.908Z",
+      "updated_at": "2019-08-16T00:33:16.908Z"
+    }
+  },
+  {
+    "model": "places.rule",
+    "pk": 1,
+    "fields": {
+      "name": "Not suitable for children (2-12 years)",
+      "description": null,
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-16T10:10:39.989Z",
+      "updated_at": "2019-08-16T10:10:39.989Z"
+    }
+  },
+  {
+    "model": "places.rule",
+    "pk": 2,
+    "fields": {
+      "name": "Not suitable for infants (under 2 years)",
+      "description": null,
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-16T10:10:39.989Z",
+      "updated_at": "2019-08-16T10:10:39.989Z"
+    }
+  },
+  {
+    "model": "places.rule",
+    "pk": 3,
+    "fields": {
+      "name": "Not suitable for pets",
+      "description": null,
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-16T10:10:39.989Z",
+      "updated_at": "2019-08-16T10:10:39.989Z"
+    }
+  },
+  {
+    "model": "places.rule",
+    "pk": 4,
+    "fields": {
+      "name": "Smoking not allowed",
+      "description": null,
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-16T10:10:39.989Z",
+      "updated_at": "2019-08-16T10:10:39.989Z"
+    }
+  },
+  {
+    "model": "places.rule",
+    "pk": 5,
+    "fields": {
+      "name": "No parties or events",
+      "description": null,
+      "order": 0,
+      "deleted": false,
+      "created_at": "2019-08-16T10:10:39.989Z",
+      "updated_at": "2019-08-16T10:10:39.989Z"
+    }
+  }
+]
